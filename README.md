@@ -1,8 +1,17 @@
 # cleaner-code
 
-1. Remove comments that do not add value
-1. Format code
-1. Extract classes (> 200 lines) (feature sketch)
-1. Extract functions (> 10 lines)
-1. Create test harness
-1. Refactor
+* Remove comments that do not add value
+* Format code
+  * clang-format
+* Extract functions 
+  * < 10 lines ideal
+* Extract classes
+  * < 200 lines ideal
+  * feature sketches
+* Extract libraries (> 20 classes) (feature sketch)
+* Create test harness
+* Decrease internal dependencies
+  * Dependency inversion principle
+* Decrease external dependencies
+  * Replace dependencies on libraries with std library
+  * Look for open source replacements for library dependencies
