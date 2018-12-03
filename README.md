@@ -1,5 +1,6 @@
 # cleaner-code
 
+* Write tool to automatically feature sketch class for you
 * Remove comments that do not add value
 * Format code
   * clang-format
@@ -8,7 +9,8 @@
 * Extract classes
   * < 200 lines ideal
   * feature sketches
-* Extract libraries (> 20 classes) (feature sketch)
+* Extract libraries (> 20 classes)
+  * feature sketch
 * Create test harness
 * Decrease internal dependencies
   * Dependency inversion principle
