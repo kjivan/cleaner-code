@@ -8,7 +8,7 @@
   * < 10 lines ideal
 * Extract classes
   * < 200 lines ideal
-  * feature sketches
+  * feature sketch
 * Extract libraries (> 20 classes)
   * feature sketch
 * Create test harness
